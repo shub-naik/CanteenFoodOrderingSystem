@@ -1,0 +1,74 @@
+body,html{
+    margin:0;
+    padding:0;
+    scrollbar-width:thin;
+}
+/* for scrollbar width */
+.scroller {
+    width: 100%;
+    overflow-y: scroll;
+    scrollbar-width: none;
+  }
+
+
+.link_for_products_page_for_offer{
+    background-color:silver;
+    height:40px;
+    width:100%;
+    color:white;
+}
+
+#breakfast{
+    margin-left:10px;
+    display:flex;
+    overflow-x:auto;
+}
+
+#breakfast_header{
+    margin-top:10px;
+    display:flex;
+    overflow-x:auto;
+    overflow-y:none;
+    font-size:25px;
+    color:white;
+    background-color:black;
+    padding:3px;
+}
+
+#breakfast_header #see_all{
+    margin-left:20px;
+    color:white;
+    font-size:20px;
+}
+
+#see_all a{
+    text-decoration:none;
+    color:blue;
+}
+
+#breakfast .item{
+    min-width:400px;
+    height:300px;
+}
+
+#breakfast .item img{
+    width:400px;
+    height:300px;
+}
+
+.Lunch_Dinner{
+    margin:10px;
+    width:100%;
+    height:40px;
+    color:white;
+    background-color:black;
+}
+
+.footer a{
+    color:white;
+    margin-left:20px;
+    font-size:20px
+}
+.footer a:hover{
+    color:blue;
+}
